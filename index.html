@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICONIC DIGITAL HUB
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="spinner">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbox">
+        <div class="logoname">
+            <h2>ICONIC DIGITAL HUB</h2>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navlinks-container">
+            <div class="navlinks">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#aboutus">About us</a></li>
+                </ul>
+            </div>
+            <div id="btn">
+                <ul>
+                    <li><a href="#contactz">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Welcome Section -->
+    <article class="main" id="home">
+        <div class="mainbox">
+            <h1>Welcome to ICONIC DIGITAL HUB</h1>
+            <br><br>
+            <p>
+                At ICONIC DIGITAL HUB, we are committed to delivering innovative solutions tailored to your business needs.
+                Our team of experts combines creativity, technical skill, and industry experience to help you achieve your goals.
+            </p>
+               <!-- Show Image Button -->
+            <button id="showImageBtn" style="margin-top:20px;">View</button>
+            <!-- Hidden Image -->
+            <div id="mainImageContainer" style="display:none; margin-top:20px;">
+                <img src="images/IMG_1480.JPG" alt="ICONIC DIGITAL HUB Example" style="max-width:100%;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+                <!-- See Less Button -->
+                <button id="hideImageBtn" style="display:block;margin:16px auto 0 auto;">See Less</button>
+            </div>
+        </div>
+    </article>
+
+    <br><br><br><br>
+
+    <!-- Services Section -->
+    <section class="services" id="service">
+        <h2>Our Services</h2>
+        <div class="servicebox">
+            <div class="service">
+                <h3>Web Design & Development</h3>
+                <p>Crafting visually stunning, user-friendly websites that engage your audience and drive results.</p>
+            </div>
+            <div class="service">
+                <h3>Network Design & Cybersecurity Solutions</h3>
+                <p>Designing intuitive interfaces and seamless user experiences that keep your customers coming back.</p>
+            </div>
+            <div class="service">
+                <h3>Content Editing</h3>
+                <p>Designing secure, efficient, and scalable network infrastructures with robust cybersecurity measures to protect your data and systems.
+                </p>
+            </div>
+            <div class="service">
+                <h3>Graphics Designing</h3>
+                <p>Creating eye-catching visual designs and branding materials that communicate your message effectively and leave a lasting impression..</p>
+            </div>
+            <div class="service">
+                <h3>App Development</h3>
+                <p>Developing high-performance, feature-rich mobile and web applications tailored to meet your business needs and enhance user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="About" id="aboutus">
+        <h2>About Us</h2>
+        <div class="aboutbox">
+            <p>
+            <br>Iconic Digital Hub is a creative and technical team dedicated to helping brands and individuals thrive in the digital space. We combine innovative design, smart development, and strategic thinking to deliver solutions that are visually stunning, functional, and tailored to your needs.<br>
+           <br> Our mission is simple, to make premium digital services accessible, impactful, and results-driven. From websites and branding to cybersecurity and digital strategy, we focus on understanding your story and creating solutions that connect with your audience.</br>
+            <br>At Iconic Digital Hub, we don’t just complete projects; we build lasting partnerships and help you grow every step of the way.</p>br>
+            </p>
+        </div>
+    </section>
+
+   <!-- Why Choose Us Section -->
+<section class="why-choose-us">
+  <h2>Why Choose Us?</h2>
+  <ul class="why-choose-us-list">
+    <li>Customer-centric approach tailored to your needs</li>
+    <li>Innovative solutions with cutting-edge technology</li>
+    <li>Experienced and passionate team</li>
+    <li>Transparent communication throughout the project</li>
+    <li>Reliable post-launch support and maintenance</li>
+  </ul>
+</section>
+
+
+  </ul>
+</section>
+
+    <!-- Contact Section -->
+   <form class="contact-form" action="https://formspree.io/f/xrbljrek" method="POST" novalidate>
+  <input type="hidden" name="_subject" value="New contact from ICONIC DIGITAL HUB website" />
+  
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required placeholder="Your Name" />
+  
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required placeholder="your@email.com" />
+  
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+  
+  <button type="submit" class="btn">Send Message</button>
+</form>
+<div id="form-message"></div>
+    </section>
+
+    <br><br><br><br>
+
+    <!-- Footer -->
+    <footer id="footer" style="background-color: var(--card-bg, #fff); border-top: 1px solid rgba(0,0,0,0.1); padding: 3rem 1.5rem;">
+  <div style="max-width: 72rem; margin: 0 auto;">
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-bottom: 2rem;">
+
+      <!-- Brand (Left aligned) -->
+      <div style="display: flex; flex-direction: column; align-items: flex-start;">
+        <div style="
+          font-size: 1.5rem; 
+          font-weight: 700; 
+          background: linear-gradient(90deg, #00b4d8, #ff8800);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-bottom: 1rem;
+        ">
+          Iconic Digital Hub
+        </div>
+        <p style="color: #666; line-height: 1.6;">
+         Iconic Digital Hub is dedicated to delivering innovative digital solutions that empower businesses to thrive and engage their audiences effectively.
+        </p>
+      </div>
+
+      <!-- Quick Links (Center aligned) -->
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <h3 style="font-weight: 600; margin-bottom: 1rem;">Quick Links</h3>
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; text-align: center;">
+          <a href="#home" style="color: #666; text-decoration: none; transition: color 0.3s;">Home</a>
+          <a href="#skills" style="color: #666; text-decoration: none; transition: color 0.3s;">Skills</a>
+          <a href="#projects" style="color: #666; text-decoration: none; transition: color 0.3s;">Projects</a>
+          <a href="#contact" style="color: #666; text-decoration: none; transition: color 0.3s;">Contact</a>
+        </div>
+      </div>
+
+      <!-- Contact Info (Right aligned) -->
+      <div style="display: flex; flex-direction: column; align-items: flex-end;">
+        <h3 style="font-weight: 600; margin-bottom: 1rem;">Let's Connect</h3>
+        <div style="color: #666; line-height: 1.4; margin-bottom: 1rem; text-align: right;">
+          <p>iconicdhub@gmail.com</p>
+          <p>+234 91-3870-9321</p>
+          <p>Owerri, Nigeria.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+      <p style="color: #666; font-size: 0.875rem; margin-bottom: 1rem;">
+        © 2025 Frontend Developer Portfolio. All rights reserved.
+      </p>
+      <div style="color: #666; font-size: 0.875rem; display: flex; align-items: center; gap: 0.25rem;">
+        Made by 
+        <svg xmlns="http://www.w3.org/2000/svg" style="height: 1rem; width: 1rem; color: #f56565;" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        Iconic PC
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
